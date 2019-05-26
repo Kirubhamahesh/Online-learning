@@ -7,6 +7,14 @@ public class BloodBean {
 	private String location;
 	private String password;
 	private String Retypepassword;
+	private String message;
+	
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
 	public String getFirstname() {
 		return Firstname;
 	}
